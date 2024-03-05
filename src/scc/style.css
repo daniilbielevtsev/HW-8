@@ -1,0 +1,43 @@
+.pink {
+  color: pink;
+}
+.gray {
+  color: gray;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.div-header {
+  color: black;
+}
+.div-titel {
+  color: blue;
+}
+.div-text {
+  color: gray;
+}
+.div-text:hover {
+  background-color: blue;
+}
+.div-titel:hover {
+  font-size: 45px;
+}
+.div-titel:hover {
+  color: rgb(79, 79, 84);
+  background-color: blue;
+}
+.div-text {
+  background-color: bisque;
+}
+.div-text {
+  text-align: center;
+}
+.div-text {
+  border: 100px;
+}
