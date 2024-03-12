@@ -1,43 +1,49 @@
-.pink {
-  color: pink;
-}
-.gray {
-  color: gray;
-}
-.red {
-  color: red;
-}
-.green {
-  color: green;
-}
 .yellow {
   color: yellow;
 }
-.div-header {
-  color: black;
+#greycol {
+  color: grey;
 }
-.div-titel {
+p:first-child {
+  color: red;
+}
+h3:first-child {
+  color: pink;
+}
+p:nth-last-child(2) {
+  color: green;
+}
+li:nth-last-child(2) {
   color: blue;
+  font-size: 22px;
 }
-.div-text {
-  color: gray;
+li:last-child {
+  color: blueviolet;
 }
-.div-text:hover {
-  background-color: blue;
+li:nth-child(3) {
+  color: cadetblue;
+  font-size: 12px;
 }
-.div-titel:hover {
-  font-size: 45px;
+li:nth-of-type(4) {
+  color: cyan;
+  font-size: 25px;
 }
-.div-titel:hover {
-  color: rgb(79, 79, 84);
-  background-color: blue;
+li:first-child {
+  color: darkblue;
 }
-.div-text {
-  background-color: bisque;
+li a:hover {
+  text-transform: uppercase;
 }
-.div-text {
-  text-align: center;
+a:visited {
+  color: dodgerblue;
 }
-.div-text {
-  border: 100px;
+a:link {
+  color: rgb(0, 212, 0);
+}
+a:disabled {
+  color: saddlebrown;
+  font-size: 11px;
+}
+a::backdrop {
+  color: black;
 }
